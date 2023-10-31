@@ -62,6 +62,11 @@
           <redeploy>true</redeploy>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.eclipse.jkube</groupId>
+        <artifactId>kubernetes-maven-plugin</artifactId>
+        <version>1.14.0</version>
+      </plugin>
     </plugins>
   </build>
 
